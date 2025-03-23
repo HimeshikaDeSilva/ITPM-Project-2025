@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const customerSchema = new mongoose.Schema({
 
     customerFullName:{
-
         type: String,
         required: true,
         trim: true,

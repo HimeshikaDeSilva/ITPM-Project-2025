@@ -178,7 +178,7 @@ const StaffLogin = () => {
                         <p>Copyright 2024 <b>ESPRESSO ELEGANCE.</b></p>
                         <p>All Rights Reserved</p>
                         <small>Designed by <w className='daedra'>DAEDRA</w></small>
-                    </div>
+                    </div>  
                 </div>
             </div>
         </div>

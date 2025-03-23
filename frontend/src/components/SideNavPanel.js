@@ -34,11 +34,8 @@ const SideNavPanel = () => {
         <a href="/allmenuitems">Menu Management</a>
         <a href="getAllPayment">Payment Management</a>
         <a href="/customersall2">Customer Management</a>
-        <a href="/allpromotion">Promotion Management</a>
         <a href="/allfeedback">Feedback Management</a>
-        <a href="/items">Stock Management</a>
         <a href="/allstaff">Staff Management</a>
-        <a href='/getAllProfit'>Profit Management</a>
         {/* <a href="/">Order Management</a> */}
     </div>
   )
