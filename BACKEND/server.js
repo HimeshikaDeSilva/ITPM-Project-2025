@@ -58,6 +58,7 @@ const stockRouter = require('./routes/stock.routes');
 const profitRouter = require("./routes/profit.routes");
 const tablesRouter = require("./routes/tables.routes");
 const reservationRouter = require('./routes/reservation.routes')
+const foodRoutes = require('./routes/foodscan.routes');
 // const FeedbackRouter = require('./routes/feedback.routes');
 
 
@@ -72,6 +73,7 @@ app.use('/stock/', stockRouter);
 app.use('/profit/',profitRouter);
 app.use('/table', tablesRouter);
 app.use('/reservation/', reservationRouter)
+app.use('/scanfood', foodRoutes);
 
 // app.use('/feedback/',FeedbackRouter);
 
