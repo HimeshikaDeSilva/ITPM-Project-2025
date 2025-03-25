@@ -175,7 +175,7 @@ const StaffLogin = () => {
                 <div className='maincopyright2'> 
                     <div className='copyright'>
                         <p>©</p>
-                        <p>Copyright 2024 <b>ESPRESSO ELEGANCE.</b></p>
+                        <p>Copyright 2025 <b>SMART CHEF.</b></p>
                         <p>All Rights Reserved</p>
                         <small>Designed by <w className='daedra'>DAEDRA</w></small>
                     </div>  
