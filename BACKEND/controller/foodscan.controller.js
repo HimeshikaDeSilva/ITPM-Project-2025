@@ -7,7 +7,7 @@ const scanFood = async (req, res) => {
     if (!req.file) {
         return res.status(400).json({ error: 'No image uploaded' });
     }
-
+    // azure vision recognizing
     try {
         const response = await axios.post(
             `${AZURE_ENDPOINT}/vision/v3.2/analyze?visualFeatures=Tags`,
@@ -19,7 +19,7 @@ const scanFood = async (req, res) => {
                 }
             }
         );
-
+        //suggestions from azure vision API
         const tags = response.data.tags
             .filter(tag => tag.name.toLowerCase().includes('food') || tag.confidence > 0.7)
             .map(tag => ({
