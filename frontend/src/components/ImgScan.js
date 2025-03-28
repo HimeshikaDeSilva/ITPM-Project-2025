@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/scanfood/scan-food';
-const MENU_API_URL = 'http://localhost:8000/menu/menuItems';
+const API_URL = 'http://localhost:8000/scanfood/scan-food'; //to get response of scan image
+const MENU_API_URL = 'http://localhost:8000/menu/menuItems';//get allmenu items
 
 const Imagescan = () => {
     const [image, setImage] = useState(null);
@@ -41,7 +41,7 @@ const Imagescan = () => {
 
         const formData = new FormData();
         formData.append('image', image);
-
+        //send the image to the backend
         try {
             const response = await axios.post(`${API_URL}/`, formData, {
                 headers: { 'Content-Type': 'multipart/form-data' }
@@ -72,7 +72,7 @@ const Imagescan = () => {
         <div className="alldiv" style={{ marginTop: '100px' }}>
             <div className="maintablecontainer">
                 <div className="container mt-5">
-                    <h1 className="text-center mb-4 text-primary">🍽️ Food Recognition</h1>
+                    <h1 className="text-center mb-4 text-primary"> Image Recognition</h1>
                     <form onSubmit={handleSubmit} className="mb-4">
                         <div className="input-group">
                             <input type="file" className="form-control" onChange={handleImageChange} accept="image/*" />
@@ -89,7 +89,7 @@ const Imagescan = () => {
                                 </div>
                             </div>
                         )}
-
+                        {/* showning analyze the image result */}
                         <div className="col-md-6">
                             {loading && <p className="text-warning">Analyzing image, please wait...</p>}
 
