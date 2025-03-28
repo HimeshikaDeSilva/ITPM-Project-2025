@@ -51,6 +51,7 @@ import ProfitCreateForm from './components/ProfitCreateForm';
 import ProfitAll from './components/ProfitAll';
 import ProfitUpdateForm from './components/ProfitUpdateForm';
 import Book from './components/Book';
+import ImgScan from './components/ImgScan';
 
 function App() {
   return (
@@ -93,7 +94,8 @@ function AppContent() {
         </div>
 
         <Routes>
-          <Route path='/' element={<StaffLogin />} />
+            <Route path='/' element={<StaffLogin />} />
+            <Route path='/imagescan' element={<ImgScan />} />
         </Routes>
     
         <div className='pages'>
@@ -156,7 +158,8 @@ function AppContent() {
             {/* Reservation */}
             <Route path='/reservation' element={<Book />} />
             
-            <Route path='/404' element={<Page404 />} />
+              <Route path='/404' element={<Page404 />} />
+             
 
           </Routes>
 
@@ -166,8 +169,10 @@ function AppContent() {
 
         {/* <Footer /> */}
 
-    </div>
-    {location.pathname !== '/' && <Footer />}
+      </div>
+ 
+      {location.pathname !== '/' && <Footer/>}
+
     </>
   );
 }
