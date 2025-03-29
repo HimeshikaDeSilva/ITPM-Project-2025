@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                     <div className='block2'>
                         <h3>Address</h3>
-                        <p>Cafe Smart Chef Pvt Ltd,</p>
+                        <p>Smart Chef Pvt Ltd,</p>
                         <p>No 121/4, Marine Drive,</p>
                         <p>Colombo</p>
                     </div>
