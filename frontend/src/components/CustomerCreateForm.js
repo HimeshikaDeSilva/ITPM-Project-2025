@@ -60,7 +60,7 @@ const CustomerCreateForm = () => {
                     // Send email using EmailJS upon successful registration
                     emailjs.send('service_f3hl5ol', 'template_9t7s17a', {
                         to_name: customerFullName,
-                        from_name: 'Espresso Elegance!',
+                        from_name: 'Smart Chef!',
                         message: 'Thank you for registering!',
                         email: customerEmail,
                         contact_no:customerContactNo,

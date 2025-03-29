@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='foot'>
             <div className='footerContent' style={{ display: 'flex' }}>
                 <div className='footerImageContainer'>
-                    <img src={logo} alt="Espresso Elegance Logo" />
+                    <img src={logo} alt="Smart Chef Logo" />
                 </div>
                 
                 <div className='footerBlocksContainer'>
@@ -23,7 +23,7 @@ const Footer = () => {
                     </div>
                     <div className='block2'>
                         <h3>Address</h3>
-                        <p>Cafe Espresso Elegance Pvt Ltd,</p>
+                        <p>Cafe Smart Chef Pvt Ltd,</p>
                         <p>No 121/4, Marine Drive,</p>
                         <p>Colombo</p>
                     </div>
@@ -48,7 +48,7 @@ const Footer = () => {
             <div className='copyright'>
                 <hr className='copyrighthr'></hr>
                 {/* Copyright text */}
-                <p>© Copyright 2024 ESPRESSO ELEGANCE. All Rights Reserved</p>
+                <p>© Copyright 2025 Smart Chef. All Rights Reserved</p>
                 <small>Designed by <w className='daedra'>DAEDRA</w></small>
             </div>
         </div>

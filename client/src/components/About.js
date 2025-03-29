@@ -16,16 +16,16 @@ const About = () => {
                         <img src={AboutUSDeco2} alt="About Us Deco 2" />
                     </div>
                     <div className="aboutSpanText">
-                        <p>Welcome to Espresso Elegance, where the classy appeal of Marine Drive, Colombo, combines with the enchanting aroma of freshly made coffee and pastries.</p>
+                        <p>Welcome to Smart Chef, where the classy appeal of Marine Drive, Colombo, combines with the enchanting aroma of freshly made coffee and pastries.</p>
                     </div>
                 </div>
                 <div className="aboutUsContent">
                     <div className="aboutWidthContentContiner">
                         <p className="column">
-                            Welcome to Espresso Elegance, the brainchild of owner Thilan Manamperi, located along the vibrant Marine Drive in Colombo.<br/> <br/>
+                            Welcome to Smart Chef, the brainchild of owner Thilan Manamperi, located along the vibrant Marine Drive in Colombo.<br/> <br/>
                             Since 2023, under Thilan's guidance, we've dedicated ourselves to providing a haven where coffee aficionados and pastry lovers alike can indulge in the finest offerings.<br/> <br/>
                             With a commitment to freshness and quality ingrained in our ethos, every cup of coffee and each pastry served reflects Thilan's passion for excellence.<br/> <br/>
-                            Join us at Espresso Elegance and experience the vision of Thilan Manamperi come to life, where every sip and every bite is a testament to our dedication to perfection.
+                            Join us at Smart Chef and experience the vision of Thilan Manamperi come to life, where every sip and every bite is a testament to our dedication to perfection.
                         </p>
                         <img src={AboutUSImage} className="column" alt="About Us" />
                     </div>
