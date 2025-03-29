@@ -242,7 +242,7 @@ async function sendLowStockEmail(lowStockItems) {
         lowStockItems.forEach(item => {
             htmlContent += `<li>${item.itemName} - Current Stock: ${item.currentstocklevel}, Minimum Stock Level: ${item.minstocklevel}</li>`;
         });
-        htmlContent += "</ul><p>Please take appropriate action to replenish the stock.</p><p>Regards,<br>Cafe Espresso Elegance Pvt Ltd</p>";
+        htmlContent += "</ul><p>Please take appropriate action to replenish the stock.</p><p>Regards,<br>Cafe Smart Chef Pvt Ltd</p>";
 
         // Send mail with defined transport object
         let info = await transporter.sendMail({

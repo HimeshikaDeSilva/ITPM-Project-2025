@@ -17,7 +17,7 @@ const Contact = () => {
                         <div className="contactCard">
                             <img src={Mail} alt="Mail" />
                             <h5>Email Us</h5>
-                            <p>cafeespressoelegance@gmail.com</p>
+                            <p>smartchef@gmail.com</p>
                         </div>
                         <div className="contactCard">
                             <img src={Phone} alt="Phone" />
