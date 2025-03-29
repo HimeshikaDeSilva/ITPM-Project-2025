@@ -35,7 +35,7 @@ const sendConfirmationEmail = async (recipientEmail, reservationData) => {
 // Generate HTML content for low stock items
 let htmlContent = "<p>Dear customer,</p><p>The table is booked :</p><ul>";
 
-htmlContent += "</ul><p>Thank you for dining at Cafe Espresso Elegance.</p><p>Regards,<br>Cafe Espresso Elegance Pvt Ltd</p>";
+htmlContent += "</ul><p>Thank you for dining at Cafe Smart Chef.</p><p>Regards,<br>Cafe Smart Chef Pvt Ltd</p>";
 
     // Setup email data
     const mailOptions = {
