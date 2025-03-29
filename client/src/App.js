@@ -16,6 +16,7 @@ import UserData from './components/UserData';
 import AddFeedback from './components/AddFeedback';
 import Feedbacks from './components/Feedbacks';
 import AllCustomerFeedbacks from './components/AllCustomerFeedbacks';
+import ImgScan from './components/ImgScan';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function AppContent() {
       <div className='pages'>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path='/imagescan' element={<ImgScan />} />
           <Route path="/menudisplay" element={<MenuPage />} />
           <Route path="/promotiondisplay" element={<PromotionPage />} />
           <Route path="/feedbackcreateform" element={<FeedbackCreateForm />} />
